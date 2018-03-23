@@ -25,9 +25,9 @@ def grep_until_end_pattern(pattern, end_pattern, list_,ignore_n_init_rows=0,igno
     return r
 
 
-def orca2json(path_to_output_file, system, opt=True, freq=True):
+def parse_output_to_dictionary(path_to_output_file, system, opt=True, freq=True):
 
-    calcdir = "/".(path_to_output_file.split("/")[:-1])
+    calcdir = "/".join(path_to_output_file.split("/")[:-1])
 
     # Try to open output file
     try:
@@ -38,12 +38,13 @@ def orca2json(path_to_output_file, system, opt=True, freq=True):
         print("Did not start", calcdir)
         return {"System": system, "Done":"Nostart"}
 
-    # Get atoms, xyz
+    # Get coordinates
     try:
-        coord = grep_until_end_pattern("CARTESIAN COORDINATES (ANGSTROEM)", "CARTESIAN COORDINATES (A.U.)", orca_output, 2,3 )[-1]
+        coord = grep_until_end_pattern("CARTESIAN COORDINATES (ANGSTROEM)", "CARTESIAN COORDINATES (A.U.)", outf, 2,3 )[-1]
+        coord = "".join(coord)
     except:
-    # Get total energy
         coord = None
+    # Get total energy
     try:
         total_energy = grep("Total Energy       :", outf)[-1]
         total_energy = float(total_energy.split()[3])

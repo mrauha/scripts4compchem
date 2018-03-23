@@ -1,0 +1,72 @@
+-----------------------------------------------------------
+----------------------- PROPERTIES ------------------------
+-----------------------------------------------------------
+                    PROPERTY:
+        Name:                SCF_Energy                      
+        Comment:             The SCF Energy                                                                                                              
+        Geometry:            1
+        Type:                DOUBLE
+        Value:               -76.3201419389918243
+                    PROPERTY:
+        Name:                SCF_Energy                      
+        Comment:             The SCF Energy                                                                                                              
+        Geometry:            2
+        Type:                DOUBLE
+        Value:               -76.3208976076046355
+                    PROPERTY:
+        Name:                SCF_Energy                      
+        Comment:             The SCF Energy                                                                                                              
+        Geometry:            3
+        Type:                DOUBLE
+        Value:               -76.3211561313461573
+                    PROPERTY:
+        Name:                SCF_Energy                      
+        Comment:             The SCF Energy                                                                                                              
+        Geometry:            4
+        Type:                DOUBLE
+        Value:               -76.3211620492043181
+                    PROPERTY:
+        Name:                SCF_Energy                      
+        Comment:             The SCF Energy                                                                                                              
+        Geometry:            5
+        Type:                DOUBLE
+        Value:               -76.3211621361634514
+                    PROPERTY:
+        Name:                SCF_Energy                      
+        Comment:             The SCF Energy                                                                                                              
+        Geometry:            5
+        Type:                DOUBLE
+        Value:               -76.3211621364130792
+-----------------------------------------------------------
+----------------------- GEOMETRIES ------------------------
+-----------------------------------------------------------
+                    GEOMETRY:    1
+        Number of atoms:    3
+        Coordinates:
+            O     -1.065630000000    3.961810000000    0.000000000000
+            H     -0.095630000000    3.961810000000    0.000000000000
+            H     -1.388960000000    3.466530000000    0.768800000000
+                    GEOMETRY:    2
+        Number of atoms:    3
+        Coordinates:
+            O     -1.072253024440    3.966865624901   -0.007847610289
+            H     -0.109155360169    3.952830290932    0.013938782772
+            H     -1.368811615391    3.470454084166    0.762708827518
+                    GEOMETRY:    3
+        Number of atoms:    3
+        Coordinates:
+            O     -1.080798145933    3.973409496992   -0.018005357147
+            H     -0.117058421646    3.944895755468    0.026255191399
+            H     -1.352363432421    3.471844747540    0.760550165747
+                    GEOMETRY:    4
+        Number of atoms:    3
+        Coordinates:
+            O     -1.081539048228    3.973977124965   -0.018886459523
+            H     -0.116291179438    3.944763954960    0.026459779168
+            H     -1.352389772333    3.471408920075    0.761226680355
+                    GEOMETRY:    5
+        Number of atoms:    3
+        Coordinates:
+            O     -1.081588988142    3.974015738858   -0.018946398066
+            H     -0.116101405074    3.944807862329    0.026391623812
+            H     -1.352529606783    3.471326398813    0.761354774255
